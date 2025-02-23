@@ -3,8 +3,8 @@ def mahoa(message, p, q, e):
     z = (p - 1) * (q - 1)
     L = []
     for char in message:
-        M = ord(char)  # Chuyển ký tự thành mã ASCII
-        C = pow(M, e, n)  # Mã hóa
+        M = ord(char)  
+        C = pow(M, e, n)  
         L.append(C)
     return L
 
